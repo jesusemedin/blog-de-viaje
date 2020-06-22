@@ -47,6 +47,30 @@ p{
     display: block;
 }
 /* NAVEGACION RESPONSIVE */
+.barra{
+    overflow: hidden;
+}
+.mobile-menu{
+    color: #ffffff;
+    font-size: 2rem;
+    /* esto son dos propiedades para centrar este elemento */
+    text-align: center;
+    display: block;
+    padding: 20px 0;
+}
+#nav:target{
+    max-height: 800px;
+}
+.navegacion-principal{
+    max-height: 0;
+    margin-top: 0;
+    transition: 0.8s;
+}
+@media (min-width: 768px){
+    .mobile-menu, .cerrar{
+        display: none!important;
+    }
+}
 /* NAVEGACION */
 .barra{
     background-color: #00b8e4;
