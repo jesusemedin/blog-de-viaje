@@ -67,6 +67,9 @@ p{
     transition: 0.8s;
 }
 @media (min-width: 768px){
+    .navegacion-principal{
+        max-height: unset;
+    }
     .mobile-menu, .cerrar{
         display: none!important;
     }
